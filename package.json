@@ -1,0 +1,24 @@
+{
+  "name": "weather-generator",
+  "version": "0.0.0",
+  "description": "weather generator based on location's geography",
+  "main": "server.js",
+  "author": "Samadhiya",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "~1.5.2",
+    "express": "~4.7.2",
+    "method-override": "~2.1.2",
+    "mocha": "^3.2.0",
+    "moment-timezone": "^0.5.10",
+    "morgan": "~1.2.2",
+    "should": "^11.1.1",
+    "socket.io": "^1.7.1"
+  }
+}
